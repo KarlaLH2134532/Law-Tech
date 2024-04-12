@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="1000dp"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/otherContainer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pt"
+            android:layout_width="425dp"
+            android:layout_height="200dp"
+            android:background="#F50E2370" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginLeft="340dp"
+        app:srcCompat="@mipmap/casas"
+        android:layout_marginTop="20dp"/>
+
+
+    <ImageButton
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/lupa"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="45dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Buscar Historia"
+    android:layout_marginTop="115dp"
+    android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historial"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="145dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/otherContainer4"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        app:srcCompat="@mipmap/mens" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/otherContainer4"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="230dp"
+        app:srcCompat="@mipmap/botte"/>
+
+    <LinearLayout
+        android:id="@+id/otherContainer5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pt1"
+            android:layout_width="345dp"
+            android:layout_height="600dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="25dp"
+            android:background="#F5D1D9F3" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pt2"
+        android:layout_marginTop="315dp"
+        android:layout_marginStart="30dp"
+        android:text="Hoy-Jueves-04-Junio-2024"
+        android:background="#F58EA4F8" />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otherContainer4"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        android:textColor="#1945E6"
+        android:text="Borrar datos de navegacion"/>
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otherContainer4"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        android:textColor="#1945E6"
+        android:text="Por Fecha"/>
+
+
+</RelativeLayout>

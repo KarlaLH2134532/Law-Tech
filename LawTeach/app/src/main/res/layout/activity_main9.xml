@@ -1,0 +1,325 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress1"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress2"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="178dp"
+        android:background="@drawable/coloress3"
+        android:rotation="45" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout"
+        android:layout_width="240dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="240dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="240dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout2"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="280dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="280dp"
+        android:hint=""
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout4"
+        android:layout_width="195dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="320dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText4"
+        android:layout_width="195dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="320dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout7"
+        android:layout_width="255dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="360dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText7"
+        android:layout_width="255dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="360dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout8"
+        android:layout_width="185dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="400dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText8"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="400dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout9"
+        android:layout_width="235dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="440dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText9"
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="440dp"
+        android:hint=""
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout11"
+        android:layout_width="145dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="480dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText11"
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="480dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout10"
+        android:layout_width="250dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="520dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText10"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="520dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Correo"
+        android:text="Contraseña:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="234dp"
+        android:background="@drawable/coloress1"
+        android:rotation="45" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="290dp"
+        android:background="@drawable/coloress2"
+        android:rotation="45" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/coloress3"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="346dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress3"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="-46dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress2"
+        android:rotation="45" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="477dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/coloress1"
+        android:rotation="45" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/coloress2"
+            android:rotation="45" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre(s):"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:id="@+id/Apellidop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:text="Apellido Paterno:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+    android:id="@+id/Apellidom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Apellidop"
+    android:text="Apellido Materno:"
+    android:textStyle="bold"
+        android:textSize="15dp"
+    android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Apellidom"
+        android:text="Telefono:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Telefono"
+        android:text="Correo Electeronico:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Correo"
+        android:text="Contraseña:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="Confirma tu contraseaña:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/Direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="Direccion:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/btcuatro1"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:text="Crear cuenta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="#D002F4"
+        android:layout_below="@+id/password"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="340dp"
+        app:srcCompat="@drawable/regres" />
+
+</RelativeLayout>

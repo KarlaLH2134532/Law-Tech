@@ -1,0 +1,98 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/otherContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="352dp"
+            android:layout_marginTop="25dp" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/logoo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/image3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/logoo"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="67dp"
+        android:background="@drawable/salir" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/inicio"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/image1" />
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/Law"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/image2" />
+
+    <TextView
+        android:id="@+id/bienv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Bienvenido"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/Law"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bienv"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Law"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/teach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Law"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="30dp"
+        android:text="Teach"
+        android:textSize="45dp" />
+
+
+    <Button
+        android:id="@+id/inicio"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teach"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginRight="8dp"
+        android:background="#CB02F8"
+        android:text="Inicio"
+        android:textSize="12dp"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>

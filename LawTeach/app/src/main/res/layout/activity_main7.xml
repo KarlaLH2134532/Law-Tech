@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="1000dp"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/otherContainer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pt"
+            android:layout_width="425dp"
+            android:layout_height="200dp"
+            android:background="#F50E2370" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="390dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/zul"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginLeft="340dp"
+        app:srcCompat="@mipmap/casas"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/pt3"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="135dp"
+        android:backgroundTint="@color/white"
+        android:text="Jose Eduardo Cruz "
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corner" />
+
+    <ImageButton
+        android:id="@+id/imx"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/use"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/bttss"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:background="#F5D1D9F3"
+        android:text="Informacion Personal"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/bttuno"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="130dp"
+        android:background="#F58EA4F8"
+        android:layout_marginEnd="25dp"
+        android:text="Descrripcion"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/btt2s"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="210dp"
+        android:background="#F5D1D9F3"
+        android:text="Mis citas"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <!-- La etiqueta LinearLayout estaba incompleta, la he corregido -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ImageButton
+        android:id="@+id/btf"
+        android:layout_width="245dp"
+        android:layout_height="340dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B48EA4F8" />
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="320dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_below="@id/otherContainer2"
+        android:backgroundTint="#FADDDADA"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="162dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/commentTextInputLayout"
+            android:layout_width="200dp"
+            android:layout_height="310dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="332dp"
+                android:hint="Ingrese su comentario aquí" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/agregarrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:text="agregar"
+            android:textColor="#1945E6"
+            android:background="#00FFFFFF"
+            android:layout_marginTop="600dp"/>
+
+        <Button
+            android:id="@+id/bbbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:text="guardar"
+            android:textColor="#1945E6"
+            android:background="#00FFFFFF"
+            android:layout_marginTop="600dp"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

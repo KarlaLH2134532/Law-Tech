@@ -1,0 +1,491 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress1"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress2"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="178dp"
+        android:background="@drawable/coloress3"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="234dp"
+        android:background="@drawable/coloress1"
+        android:rotation="45" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="290dp"
+        android:background="@drawable/coloress2"
+        android:rotation="45" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/coloress3"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="346dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress3"
+        android:rotation="45" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="-46dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/coloress2"
+        android:rotation="45" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="477dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/coloress1"
+            android:rotation="45" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/coloress2"
+            android:rotation="45" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre(s):"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout"
+        android:layout_width="240dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="240dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="240dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout2"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="280dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="280dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/commentTextInputLayout4"
+    android:layout_width="195dp"
+    android:layout_height="22dp"
+    android:layout_marginStart="155dp"
+    android:layout_marginTop="320dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText4"
+        android:layout_width="195dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="320dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout5"
+        android:layout_width="265dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="360dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText5"
+        android:layout_width="265dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="360dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout7"
+        android:layout_width="255dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="440dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText7"
+        android:layout_width="255dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="440dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout8"
+        android:layout_width="185dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="480dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText8"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="480dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout9"
+        android:layout_width="235dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="520dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText9"
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="520dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout10"
+        android:layout_width="250dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="600dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText10"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="600dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/commentTextInputLayout11"
+        android:layout_width="145dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="480dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText11"
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="560dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:hint="" />
+    <TextView
+        android:id="@+id/Apellidop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:text="Apellido Paterno:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Apellidom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Apellidop"
+        android:text="Apellido Materno:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/Cedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Apellidom"
+        android:text="Cedula:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/Esp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cedula"
+        android:text="Especialidad:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Esp"
+        android:text="Telefono:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/Correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Telefono"
+        android:text="Correo Electronico:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Correo"
+        android:text="Contraseña:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="Confirma tu contraseaña:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Dic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="Direccion:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/btcuatro"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:text="Crear cuenta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="#D002F4"
+        android:layout_below="@+id/password"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="340dp"
+        app:srcCompat="@drawable/regres" />
+
+    <ImageButton
+        android:id="@+id/desplegar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="130dp"
+        app:srcCompat="@mipmap/desp"
+        android:backgroundTint="#00FFFFFF" />
+    <ImageButton
+        android:id="@+id/lll"
+        android:layout_width="190dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="#8FDAD3D3"
+        android:visibility="gone"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginLeft="185dp"/>
+    <Button
+        android:id="@+id/bs"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="290dp"
+        android:text="Derecho Penal"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B48EA4F8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:id="@+id/bs1"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Civil"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B48EA4F8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:id="@+id/bs2"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs1"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Laboral"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B48EA4F8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:id="@+id/bs3"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs2"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Fiscal"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B98EACF8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/bs4"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs3"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Mercantil"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B98EACF8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/bs5"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs4"
+        android:layout_marginTop="1dp"
+        android:text="Derecho de Familiar"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B98EACF8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/bs6"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs5"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Inmobiliario"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B98EACF8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/bs7"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs6"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Administrativo"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B98EACF8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/bs8"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs7"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Constitucional"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B98EACF8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/bs9"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/bs8"
+        android:layout_marginTop="1dp"
+        android:text="Derecho Ambiental"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#B98EACF8"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_marginLeft="200dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,450 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="1000dp"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/otherContainer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pt"
+            android:layout_width="425dp"
+            android:layout_height="200dp"
+            android:background="#F50E2370" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/remplazo"
+        android:layout_width="390dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/zul"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginLeft="365dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/rounded_corner"
+        app:srcCompat="@mipmap/lapiz" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginLeft="340dp"
+        app:srcCompat="@mipmap/casas"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/imx"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/use"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/rounded_corner"
+        app:srcCompat="@mipmap/camara" />
+
+    <Button
+        android:id="@+id/pt3"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/white"
+        android:text="Jose Eduardo Cruz "
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:background="#F58EA4F8"
+        android:text="Informacion Personal"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/btt1"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="130dp"
+        android:background="#F5D1D9F3"
+        android:layout_marginEnd="25dp"
+        android:text="Descrripcion"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="25dp" />
+    <Button
+        android:id="@+id/btt2"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="210dp"
+        android:background="#F5D1D9F3"
+        android:text="Mis citas"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:text="Nombre(s)"/>
+
+    <Button
+        android:id="@+id/btt4"
+        android:layout_below="@+id/otherContainer2"
+        android:layout_width="167dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt5"
+        android:layout_below="@+id/btt4"
+        android:layout_width="161dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt6"
+        android:layout_below="@+id/btt5"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt7"
+        android:layout_below="@+id/btt6"
+        android:layout_width="103dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt8"
+        android:layout_below="@+id/btt7"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt9"
+        android:layout_below="@+id/btt8"
+        android:layout_width="192dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt10"
+        android:layout_below="@+id/btt9"
+        android:layout_width="173dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+
+    <Button
+        android:id="@+id/btt11"
+        android:layout_below="@+id/btt10"
+        android:layout_width="176dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt12"
+        android:layout_below="@+id/btt11"
+        android:layout_width="197dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#DFD6D6"
+        android:layout_toRightOf="@+id/tx9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner" />
+
+    <Button
+        android:id="@+id/btt13"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btt12"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/tx10"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#DFD6D6" />
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="Apellidos(s)"/>
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="Telefono"/>
+
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx3"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="Fecha de Nacimiento"/>
+
+    <TextView
+        android:id="@+id/tx5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx4"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="User Name"/>
+
+    <TextView
+        android:id="@+id/tx6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx5"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="Correo"/>
+
+    <TextView
+        android:id="@+id/tx7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx6"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="Password"/>
+
+    <TextView
+        android:id="@+id/tx8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx7"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:text="Direccion"/>
+
+    <TextView
+        android:id="@+id/tx9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx8"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="26dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="CURP"/>
+
+    <TextView
+        android:id="@+id/tx10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx9"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:text="Especialidad"/>
+
+    <TextView
+        android:id="@+id/tx11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btt13"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btt13"
+        android:text="No.Celula"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/btt14"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btt12"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/tx11"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#DFD6D6" />
+
+    <TextView
+        android:id="@+id/tx12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx11"
+        android:text="Editar Datos"
+        android:textColor="#1945E6"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tx13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tx12"
+        android:layout_alignBaseline="@+id/tx12"
+        android:text="Save"
+        android:textColor="#1945E6"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tx14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx12"
+        android:text="Agregar Datos:"
+        android:textColor="#1945E6"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btt15"
+        android:layout_width="367dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tx14"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#DFD6D6" />
+
+
+    <Button
+        android:id="@+id/btt16"
+        android:layout_width="176dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btt15"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#DFD6D6" />
+
+    <Button
+        android:id="@+id/btt17"
+        android:layout_width="176dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btt15"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#DFD6D6" />
+
+    <Button
+        android:id="@+id/btt18"
+        android:layout_width="176dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btt17"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#DFD6D6" />
+
+    <TextView
+        android:id="@+id/tx15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btt18"
+        android:layout_alignBaseline="@+id/btt18"
+        android:text="Save"
+        android:textColor="#1945E6"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>
